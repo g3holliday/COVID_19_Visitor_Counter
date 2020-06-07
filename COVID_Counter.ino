@@ -35,7 +35,7 @@ int duration, distance;
     } 
 
 val = digitalRead(piezoPin); // read input value
-if (val ==  HIGH) { // check if the input is HIGH (led on)
+if (val ==  HIGH) { // check if the input is HIGH (piezo on)
 currentState = 1;
 }
 else {
